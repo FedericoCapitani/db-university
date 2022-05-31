@@ -17,6 +17,7 @@ courses_numbers:
 id:
 name:
 course_lenght:
+professor_id:
 
 ## Professor
 
