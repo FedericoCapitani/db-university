@@ -1,5 +1,9 @@
 QUERY 1
 
+SELECT * FROM `students` 
+WHERE `date_of_birth` >= '1990-01-01' 
+AND `date_of_birth` <= '1991-01-01';
+
 QUERY 2
 
 QUERY 3
