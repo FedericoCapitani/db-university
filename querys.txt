@@ -33,6 +33,10 @@ AND `hour` >= '14:00:00';
 
 QUERY 6
 
+SELECT * FROM `degrees` 
+WHERE `level` = 'magistrale';
+(38 results)
+
 QUERY 7
 
 QUERY 8 
