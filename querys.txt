@@ -39,4 +39,7 @@ WHERE `level` = 'magistrale';
 
 QUERY 7
 
+SELECT * FROM `departments`;
+(12 results)
+
 QUERY 8 
