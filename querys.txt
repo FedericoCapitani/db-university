@@ -19,6 +19,11 @@ WHERE `date_of_birth` < '1992-06-01';
 
 QUERY 4
 
+SELECT * FROM `courses` 
+WHERE `period` = 'I semestre' 
+AND `year` = 1;
+(286 results)
+
 QUERY 5
 
 QUERY 6
