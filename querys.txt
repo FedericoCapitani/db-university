@@ -47,3 +47,15 @@ QUERY 8
 SELECT * FROM `teachers` 
 WHERE `phone` IS NULL;
 (50 results)
+
+-------------------------------------------------------------------------------------------------------------
+
+QUERY GROUP BY 
+
+QUERY 1
+
+SELECT COUNT(`id`) AS 'Studenti per anno', YEAR(`enrolment_date`) AS 'Enrolment year'
+FROM `students` 
+GROUP BY YEAR(`enrolment_date`);
+
+QUERY 2
