@@ -59,3 +59,9 @@ FROM `students`
 GROUP BY YEAR(`enrolment_date`);
 
 QUERY 2
+
+SELECT COUNT(`id`) AS 'Professori nello stesso ufficio', `office_address` AS 'Indirizzo' 
+FROM `teachers` 
+GROUP BY `office_address`;
+
+QUERY 3
