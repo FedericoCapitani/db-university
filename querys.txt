@@ -79,3 +79,10 @@ GROUP BY `department_id`;
 -------------------------------------------------------------------------------------------------------------------------------
 
 QUERY JOINS 
+
+QUERY 1
+
+SELECT `students`.`id`, `students`.`name`, `students`.`surname`, `degrees`.`name` 
+FROM `students` 
+JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id` 
+WHERE `degrees`.`name` = 'Corso di Laurea in Economia';
