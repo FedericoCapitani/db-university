@@ -65,3 +65,7 @@ FROM `teachers`
 GROUP BY `office_address`;
 
 QUERY 3
+
+SELECT ROUND(AVG(`vote`)) AS 'media', `exam_id` AS 'Esame' 
+FROM `exam_student` 
+GROUP BY `exam_id`;
